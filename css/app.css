@@ -16,6 +16,10 @@ a {
   -o-transition: all .3s ease;
   transition: all .3s ease;
 }
+#container {
+  width: 1170px;
+  margin: 0 auto;
+}
 .js-hidden {
   display: none;
 }
@@ -26,13 +30,19 @@ a {
   flex-flow: row wrap;
   margin: 0 -15px;
 }
-#project-catalogue-page > .item {
+#project-catalogue-page ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#project-catalogue-page ul li {
   margin: 0 0 40px;
   padding: 0 15px;
   border: none;
   box-sizing: border-box;
   flex-basis: 33.3333%;
   width: 33.3333%;
+  display: inline-block;
 }
 #project-catalogue-page h2 {
   padding-right: 50px;
