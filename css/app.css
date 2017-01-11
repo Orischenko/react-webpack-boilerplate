@@ -42,7 +42,14 @@ a {
   box-sizing: border-box;
   flex-basis: 33.3333%;
   width: 33.3333%;
-  display: inline-block;
+  float: left;
+}
+
+#project-catalogue-page ul li li {
+  flex-basis: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 #project-catalogue-page h2 {
   padding-right: 50px;
